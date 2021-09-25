@@ -1,18 +1,26 @@
 $(document).ready(function(){
-    $('.landing-page').hide();
+    $('.landing-page').shpw();
     $('.generate').hide();
-    $('.brief-result').show();
+    $('.brief-result').hide();
 
-    $('#generate-link').on('click',function(){
+    $('.logo-img').on('click',function(){
+        $('.brief-result').hide();
+        $('.generate').hide();
+        $('.landing-page').show();
+    });
+
+    $('.generate-link').on('click',function(){
         $('.landing-page').hide();
         $('.brief-result').hide();
         $('.generate').show();
     });
 
-    $('#generate-link').on('click',function(){
+    $('#brief-result-btn').on('click',function(){
         $('.landing-page').hide();
-        $('.brief-result').hide();
-        $('.generate').show();
+        $('.generate').hide();
+        $('.brief-result').show();
     });
+
+
 
 });
