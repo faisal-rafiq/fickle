@@ -230,6 +230,7 @@ div.fashion-model>div.fashion-model-btns>div {
     line-height: 2.448vw;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 div.fashion-model-detail {
