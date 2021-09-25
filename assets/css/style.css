@@ -30,6 +30,7 @@ nav.navbar-header {
 
 nav.navbar-header>div.logo-img {
     width: 7.240vw;
+    cursor: pointer;
 }
 
 nav.navbar-header>div.logo-img>img {
