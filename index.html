@@ -9,6 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
 
   <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -104,13 +106,13 @@
         <textarea
           placeholder="a happy frog carrying and umbrella and wearing shades with a fun background...."></textarea>
         <div class="go-btn">
-          <input type="button" value="GO" id="brief-result-btn" />
+          <input type="button" value="GO" id="brief-results-btn" />
         </div>
       </div>
     </div>
 
-    <!-- Brief Result -->
-    <div class="brief-result">
+    <!-- Brief Results -->
+    <div class="brief-results">
       <div class="navbar-results">
         <div class="results-text">
           results
@@ -152,7 +154,7 @@
           <input type="button" value="GO" />
         </div>
       </div>
-      
+
       <div class="navbar img-filter2">
         <img src="./assets/img/Brief Results/img_00023_B 1.png" />
         <img src="./assets/img/Brief Results/img_00033_B 1.png" />
@@ -161,8 +163,80 @@
         <img src="./assets/img/Brief Results/img_00067_B 1.png" />
         <img src="./assets/img/Brief Results/img_00069_B 1.png" />
       </div>
+    </div>
+
+    <!-- Brief Result for an image -->
+    <div class="img-brief-result">
+      <div class="navbar-result">
+        <div class="results-text">
+          results
+        </div>
+      </div>
+
+      <div class="img-brief">
+
+        <div class="brief-text">brief</div>
+        <textarea placeholder="a happy llamma with pretty horns with friends"></textarea>
+
+        <div class="img-info navbar">
+          <div class="loaded-img">
+            <img src="./assets/img/Brief Results/img_00023_B 1.png" />
+          </div>
+          <div class="img-detail">
+            <div class="navbar img-resolutions">
+              <div class="res">
+                <div class="res-text">low res</div>
+                <button class="price-btn">
+                  <div class="price">$30</div>
+                  <div class="tokens">( 1 token )</div>
+                </button>
+              </div>
+              <div class="res">
+                <div class="res-text">high res</div>
+                <button class="price-btn">
+                  <div class="price">$50</div>
+                  <div class="tokens">( 2 tokens )</div>
+                </button>
+              </div>
+            </div>
+            <div class="market-freeze">
+              <div class="select-dropdown">
+                <button class="select-dropdown__button" data-value="" type="button">
+                  <span id="select-dropdown-text">market freeze</span>
+                  <i class="zmdi zmdi-chevron-down"></i>
+                </button>
+                <ul class="select-dropdown__list" id="select-dropdown__list">
+                  <li class="select-dropdown__list-item" data-value="1">
+                    <div>for 1 year...</div>
+                    <div>$635 <span>USD</span></div>
+                  </li>
+                  <li class="select-dropdown__list-item" data-value="2">
+                    <div>for 2 years ...</div>
+                    <div>$1270 <span>USD</span></div>
+                  </li>
+                  <li class="select-dropdown__list-item" data-value="3">
+                    <div>forEVER ...</div>
+                    <div>$1500 <span>USD</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="go-btn">
+              <input type="button" id="img-added-btn" value="GO" />
+            </div>
+          </div>
+          <div class="added-to-cart-img">
+            <div class="added-to-cart-text">added to cart</div>
+            <div class="cart-link">view cart</div>
+            <button id="generate-another">generate another</button>
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
+
 
   </nav>
 
