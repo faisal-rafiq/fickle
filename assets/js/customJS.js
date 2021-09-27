@@ -1,15 +1,18 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').show();
+    $('.landing-page').hide();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
     $('.upload-image').hide();
     $('.upload-view').hide();
     $('.cart').hide();
+    $('.checkout').hide();
+    $('.image-purchased').show();
 
     $('.logo-img').click(function () {
+        $('.checkout').hide();
         $('.cart').hide();
         $('.upload-view').hide();
         $('.upload-image').hide();
@@ -19,17 +22,8 @@ $(document).ready(function () {
         $('.landing-page').show();
     });
 
-    $('.cart-link').click(function () {
-        $('.upload-view').hide();
-        $('.upload-image').hide();
-        $('.img-brief-result').hide();
-        $('.brief-results').hide();
-        $('.generate').hide();
-        $('.landing-page').hide();
-        $('.cart').show();
-    });
-
     $('.generate-link').click(function () {
+        $('.checkout').hide();
         $('.cart').hide();
         $('.upload-view').hide();
         $('.upload-image').hide();
@@ -40,6 +34,7 @@ $(document).ready(function () {
     });
 
     $('.custom-link').click(function () {
+        $('.checkout').hide();
         $('.cart').hide();
         $('.upload-view').hide();
         $('.img-brief-result').hide();
@@ -47,6 +42,22 @@ $(document).ready(function () {
         $('.brief-results').hide();
         $('.generate').hide();
         $('.upload-image').show();
+    });
+
+    $('.cart-link').click(function () {
+        $('.checkout').hide();
+        $('.upload-view').hide();
+        $('.upload-image').hide();
+        $('.img-brief-result').hide();
+        $('.brief-results').hide();
+        $('.generate').hide();
+        $('.landing-page').hide();
+        $('.cart').show();
+    });
+
+    $('.checkout-btn').click(function () {
+        $('.cart').hide();
+        $('.checkout').show();
     });
 
     $('#brief-results-btn').click(function () {
@@ -102,6 +113,11 @@ $(document).ready(function () {
             $(this).css('font-size', '1.875vw');
             $(this).css('line-height', '1.823vw');
         });
+    });
+
+    $('#dollar-to-credit-btn').click(function () {
+        $('div.cart>div.cart-dollars>div.cart-credit-options').hide();
+        $('div.cart>div.cart-dollars>div.dollars-to-credits').css('display', 'grid');
     });
 
 });
