@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').show();
+    $('.landing-page').hide();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
@@ -11,19 +11,26 @@ $(document).ready(function () {
     $('.checkout').hide();
     $('.image-purchased').hide();
     $('.token-purchased').hide();
+    $('.pricing').show();
 
     $('.logo-img').click(function () {
-        $('.checkout').hide();
-        $('.cart').hide();
-        $('.upload-view').hide();
-        $('.upload-image').hide();
-        $('.img-brief-result').hide();
-        $('.brief-results').hide();
-        $('.generate').hide();
+        $('.pricing').hide();
         $('.landing-page').show();
+        $('.generate').hide();
+        $('.brief-results').hide();
+        $('.img-brief-result').hide();
+        $('.upload-image').hide();
+        $('.upload-view').hide();
+        $('.cart').hide();
+        $('.checkout').hide();
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
     });
 
     $('.generate-link').click(function () {
+        $('.pricing').hide();
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
         $('.checkout').hide();
         $('.cart').hide();
         $('.upload-view').hide();
@@ -34,7 +41,24 @@ $(document).ready(function () {
         $('.generate').show();
     });
 
+    $('.pricing-link').click(function () {
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
+        $('.checkout').hide();
+        $('.cart').hide();
+        $('.upload-view').hide();
+        $('.upload-image').hide();
+        $('.landing-page').hide();
+        $('.img-brief-result').hide();
+        $('.brief-results').hide();
+        $('.generate').hide();
+        $('.pricing').show();
+    });
+
     $('.custom-link').click(function () {
+        $('.pricing').hide();
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
         $('.checkout').hide();
         $('.cart').hide();
         $('.upload-view').hide();
@@ -46,6 +70,9 @@ $(document).ready(function () {
     });
 
     $('.cart-link').click(function () {
+        $('.pricing').hide();
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
         $('.checkout').hide();
         $('.upload-view').hide();
         $('.upload-image').hide();

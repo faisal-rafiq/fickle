@@ -1832,6 +1832,7 @@ div.token-purchased>div.navbar-launch>div.launch-text {
 }
 
 div.token-purchased>div.purchased-tokens {
+    width: 100%;
     padding: 16.823vw 11.146vw 4.010vw 11.146vw;
 }
 
@@ -1907,6 +1908,256 @@ div.token-purchased>div.purchased-tokens>div.get-started>div.navbar>button {
 div.token-purchased>div.purchased-tokens>div.get-started>div.navbar>button:focus {
     outline: none;
 }
+
+/* 
+******************************************************************
+*********************         Pricing        *********************
+******************************************************************
+*/
+
+div.pricing {
+    width: 100%;
+}
+
+div.pricing>div.navbar-pricing {
+    position: fixed;
+    top: 7.083vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 2.292vw 11.146vw;
+}
+
+div.pricing>div.navbar-pricing>div.pricing-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.938vw;
+    background: #000000;
+}
+
+div.pricing>div.pricing-items {
+    width: 100%;
+    padding: 18.438vw 11.146vw 5.833vw 11.146vw !important;
+}
+
+div.pricing>div.pricing-items>div.image-pricing {
+    width: 25.5vw;
+    display: grid;
+    margin-bottom: auto;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image {
+    width: 100%;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-text {
+    width: 100%;
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #E11488;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing {
+    width: 100%;
+    margin-top: 0.729vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar {
+    width: 100%;
+    padding: 0px !important;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar:not(:first-child) {
+    margin-top: 2.604vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar>div.text {
+    font-family: 'Anonymous Pro';
+    font-size: 1.458vw;
+    line-height: 1.958vw;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar>div.detail {
+    width: 8.7vw;
+    display: grid;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar>div.detail>div.price {
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar>div.detail>div.price>span {
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.single-image>div.single-image-pricing>div.navbar>div.detail>div.credits {
+    font-size: 1.250vw;
+    line-height: 1.198vw;
+    color: #969696;
+    margin-top: 0.781vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze {
+    width: 100%;
+    margin-top: 4.063vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.market-freeze-text {
+    width: 100%;
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #E11488;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.note {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 0.938vw;
+    line-height: 0.938vw;
+    color: #969696;
+    margin-top: 0.625vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.navbar {
+    width: 100%;
+    padding: 0px !important;
+    margin-top: 1.094vw;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.navbar>div.duration {
+    font-family: 'Anonymous Pro';
+    font-size: 1.458vw;
+    line-height: 1.458vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.navbar>div.price {
+    width: 8.7vw;
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.image-pricing>div.market-freeze>div.navbar>div.price>span {
+    font-size: 0.9vw;
+    line-height: 1vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing {
+    width: 42.3vw;
+    display: grid;
+    margin-bottom: auto;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credits-text {
+    width: 100%;
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #E11488;
+    padding-left: 2.656vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.note {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 0.938vw;
+    line-height: 0.938vw;
+    color: #000000;
+    padding-left: 2.656vw;
+    margin-top: 0.469vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail {
+    width: 100%;
+    background: #290F41;
+    padding: 2.500vw 2.656vw 1.667vw 2.656vw;
+    margin-top: 1.510vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price {
+    width: 9.063vw;
+    display: grid;
+    text-align: center;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.credits-given {
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 1vw 1.667vw 0vw 1.667vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.credits-given>div.credit-num {
+    font-size: 3.3330vw;
+    line-height: 3.281vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.credits-given>div.credit-text {
+    font-size: 1.287vw;
+    line-height: 3vw;
+    color: #000000;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.price {
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #FFFFFF;    
+    margin-top: 1.8vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.price-per-credit {
+    font-family: 'Anonymous Pro';
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    color: #C4C4C4;
+    margin-top: 0.625vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.go-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.135vw;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.go-btn>input[type="button"] {
+    width: 4.427vw;
+    height: 4.427vw;
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 0px !important;
+}
+
+div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.go-btn>input[type="button"]:focus {
+    outline: none;
+}
+
+
+
+
+
+
 
 
 
