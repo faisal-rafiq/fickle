@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').hide();
+    $('.landing-page').show();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
@@ -9,7 +9,8 @@ $(document).ready(function () {
     $('.upload-view').hide();
     $('.cart').hide();
     $('.checkout').hide();
-    $('.image-purchased').show();
+    $('.image-purchased').hide();
+    $('.token-purchased').hide();
 
     $('.logo-img').click(function () {
         $('.checkout').hide();
@@ -57,7 +58,26 @@ $(document).ready(function () {
 
     $('.checkout-btn').click(function () {
         $('.cart').hide();
+        if($(this).parent().hasClass("cart-checkout")) {
+            $('div.checkout>div.dollar-100>div.total-price').text('$100.0 USD');
+            $('#token-purchase-btn').hide();
+            $('#image-purchase-btn').show();
+        } else if($(this).parent().hasClass("dollars-to-credits")) {
+            $('div.checkout>div.dollar-100>div.total-price').text('$550.0 USD');
+            $('#image-purchase-btn').hide();
+            $('#token-purchase-btn').show();
+        }
         $('.checkout').show();
+    });
+
+    $('#image-purchase-btn').click(function () {
+        $('.checkout').hide();
+        $('.image-purchased').show();
+    });
+
+    $('#token-purchase-btn').click(function () {
+        $('.checkout').hide();
+        $('.token-purchased').show();
     });
 
     $('#brief-results-btn').click(function () {

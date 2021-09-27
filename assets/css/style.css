@@ -1682,6 +1682,10 @@ div.checkout>div.checkout-information>button {
     margin-top: 3.229vw;
 }
 
+div.checkout>div.checkout-information>button:focus {
+    outline: none;
+}
+
 /* 
 ******************************************************************
 *********************     Image Purchased     ********************
@@ -1798,11 +1802,111 @@ div.image-purchased>div.purchased-images>div.cart-items>div.cart-item>button:foc
     outline: none;
 }
 
+/* 
+******************************************************************
+*********************     Token Purchased     ********************
+******************************************************************
+*/
 
+div.token-purchased {
+    width: 100%;
+}
 
+div.token-purchased>div.navbar-launch {
+    position: fixed;
+    top: 7.083vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 2.292vw 11.146vw;
+}
 
+div.token-purchased>div.navbar-launch>div.launch-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.938vw;
+    background: #000000;
+}
 
+div.token-purchased>div.purchased-tokens {
+    padding: 16.823vw 11.146vw 4.010vw 11.146vw;
+}
 
+div.token-purchased>div.purchased-tokens>div.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+div.token-purchased>div.purchased-tokens>div.navbar>div.purchase-successful-text {
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #000000;
+    margin-top: 0.833vw;
+    margin-bottom: auto;
+}
+
+div.token-purchased>div.purchased-tokens>div.navbar>div.credits-remaining {
+    width: 25vw;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 2.188vw 2.500vw !important;
+}
+
+div.token-purchased>div.purchased-tokens>div.navbar>div.credits-remaining>div.credits-remaining-text {
+    width: 8.333vw;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.token-purchased>div.purchased-tokens>div.navbar>div.credits-remaining>div.credits-left {
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+div.token-purchased>div.purchased-tokens>div.get-started {
+    width: 100%;
+    background: #290F41;
+    padding: 2.292vw 3.906vw 3.021vw 3.906vw;
+    margin-top: 3.333vw;
+}
+
+div.token-purchased>div.purchased-tokens>div.get-started>div.get-started-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+div.token-purchased>div.purchased-tokens>div.get-started>div.navbar {
+    width: 100%;
+    padding: 0px;
+    margin-top: 3.542vw;
+}
+
+div.token-purchased>div.purchased-tokens>div.get-started>div.navbar>button {
+    width: 31.250vw;
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    padding: 2.188vw 0vw;
+}
+
+div.token-purchased>div.purchased-tokens>div.get-started>div.navbar>button:focus {
+    outline: none;
+}
 
 
 
