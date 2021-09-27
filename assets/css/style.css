@@ -3,6 +3,7 @@
 * {
     font-family: 'Aldrich';
     font-style: normal;
+    font-weight: normal;
 }
 
 ::-webkit-scrollbar {
@@ -38,7 +39,6 @@ nav.navbar-header>div.logo-img>img {
 }
 
 nav.navbar-header div.nav-item {
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     color: #000000;
@@ -102,7 +102,6 @@ nav.footer>div.navbar-footer>div.footer-logo>img {
 nav.footer>div.navbar-footer>a {
     margin-left: 3.438vw;
     margin-right: auto;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     color: #FFFFFF;
@@ -115,7 +114,6 @@ nav.footer>div.navbar-footer>a:-webkit-any-link {
 nav.footer>div.navbar-footer>div.get-updates>div.get-updates-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.250vw;
     line-height: 1.250vw;
     color: #FFFFFF;
@@ -127,7 +125,6 @@ nav.footer>div.navbar-footer>div.get-updates>div.d-flex {
 
 nav.footer>div.navbar-footer>div.get-updates>div.d-flex>input[type="email"] {
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.250vw;
     line-height: 1.250vw;
     color: #000000;
@@ -143,7 +140,6 @@ nav.footer>div.navbar-footer>div.get-updates>div.d-flex>input[type="email"] {
 nav.footer>div.navbar-footer>div.get-updates>div.d-flex>input[type="button"] {
     width: 3.333vw;
     height: 3.333vw;
-    font-weight: normal;
     font-size: 1.250vw;
     line-height: 1.198vw;
     text-align: center;
@@ -163,7 +159,6 @@ nav.footer>div.footer-links {
 
 nav.footer>div.footer-links>div {
     display: inline-block;
-    font-weight: normal;
     font-size: 1.458vw;
     line-height: 1.406vw;
     color: #FFFFFF;
@@ -173,7 +168,6 @@ nav.footer>div.footer-links>div {
 
 nav.footer>div.copyrights {
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 0.833vw;
     line-height: 0.833vw;
     color: #FFFFFF;
@@ -225,7 +219,6 @@ div.fashion-model>div.fashion-model-btns>div {
     padding-top: 2vw;
     padding-bottom: 2.323vw;
     margin: 0px auto !important;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     text-align: center;
@@ -253,7 +246,6 @@ div.fashion-model-detail>div.detail.d-2 {
 div.fashion-model-detail>div.detail>div.title {
     width: 31.823vw;
     margin: 0px auto !important;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -262,7 +254,6 @@ div.fashion-model-detail>div.detail>div.title {
 
 div.fashion-model-detail>div.detail>div.description {
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.333vw;
     color: #D0FD5D;
@@ -282,7 +273,6 @@ div.coming-soon>div.coming-soon-body {
 
 div.coming-soon>div.coming-soon-body>div.title {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -308,7 +298,6 @@ div.coming-soon>div.coming-soon-body>div.body>div.description-detail {
 }
 
 div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.sub-title {
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     color: #FFFFFF;
@@ -316,7 +305,6 @@ div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.sub-tit
 
 div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.description {
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 2.083vw;
     line-height: 2.083vw;
     color: #FFFFFF;
@@ -329,7 +317,6 @@ div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.d-flex 
 
 div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.d-flex>input[type="email"] {
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #000000;
@@ -353,7 +340,6 @@ div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.d-flex>
 div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.d-flex>input[type="button"], div.generate>div.get-started>div.go-btn>input[type="button"], div.brief-results>div.refine-brief>div.go-btn>input[type="button"] {
     width: 4.427vw;
     height: 4.427vw;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     color: #000000;
@@ -361,7 +347,7 @@ div.coming-soon>div.coming-soon-body>div.body>div.description-detail>div.d-flex>
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
     border-radius: 50%;
-    padding-top: 0.313vw;
+    padding: 0px !important;
     margin: auto 3.333vw;
 }
 
@@ -388,7 +374,6 @@ div.generate>div.get-started {
 
 div.generate>div.get-started>div.get-started-text {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -398,7 +383,6 @@ div.generate>div.get-started>div.get-started-text {
 div.generate>div.get-started>div.input-brief-here {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #FFFFFF;
@@ -409,7 +393,6 @@ div.generate>div.get-started>textarea {
     width: 100%;
     height: 12.552vw;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #000000;
@@ -452,7 +435,6 @@ div.brief-results>div.navbar-results {
 
 div.brief-results>div.navbar-results>div.results-text {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -470,7 +452,6 @@ div.brief-results>div.navbar-results>div.brief>div.brief-text, div.img-brief-res
     width: 100%;
     font-family: 'Anonymous Pro';
     font-style: normal;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #E11488;
@@ -480,7 +461,6 @@ div.brief-results>div.navbar-results>div.brief>textarea, div.img-brief-result>di
     width: 100%;
     height: 8.177vw;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #000000;
@@ -522,7 +502,6 @@ div.brief-results>div.refine-brief {
 div.brief-results>div.refine-brief>div.refine-brief-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #FFFFFF;
@@ -532,7 +511,6 @@ div.brief-results>div.refine-brief>textarea {
     width: 100%;
     height: 8.177vw;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #000000;
@@ -588,7 +566,6 @@ div.img-brief-result>div.navbar-result {
 
 div.img-brief-result>div.navbar-result>div.results-text {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -636,7 +613,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutio
 div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutions>div.res>div.res-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.458vw;
     line-height: 1.458vw;
     text-align: center;
@@ -659,7 +635,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutio
 
 div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutions>div.res>button.price-btn>div.price {
     width: 100%;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     text-align: center;
@@ -668,7 +643,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutio
 
 div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.img-resolutions>div.res>button.price-btn>div.tokens {
     width: 100%;
-    font-weight: normal;
     font-size: 0.938vw;
     line-height: 0.938vw;
     text-align: center;
@@ -691,7 +665,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.market-freeze
 .select-dropdown__button {
     padding: 0.729vw 1.2vw;
     background-color: #fff;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #000000;
@@ -763,7 +736,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.market-freeze
 #select-dropdown-text>div:first-child, .select-dropdown__list-item>div:first-child {
     width: 11.979vw;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.4vw;
     line-height: 1.4vw;
     color: #000000;
@@ -772,7 +744,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.market-freeze
 
 #select-dropdown-text>div:last-child, .select-dropdown__list-item>div:last-child {
     width: 8.594vw;
-    font-weight: normal;
     font-size: 1.823vw;
     line-height: 1.8vw;
     color: #000000;
@@ -799,7 +770,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.go-btn {
 div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.go-btn>input[type="button"] {
     width: 4.427vw;
     height: 4.427vw;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     color: #000000;
@@ -807,7 +777,7 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.go-btn>input[
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
     border-radius: 50%;
-    padding-top: 0.313vw;
+    padding: 0px !important;
     margin: auto 3.333vw;
 }
 
@@ -815,8 +785,7 @@ div.img-brief-result>div.img-brief>div.img-info>div.img-detail>div.go-btn>input[
     outline: none;
 }
 
-div.upload-view>div.uploaded-img>div.added-to-cart-img,
-div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img {
+div.upload-view>div.uploaded-img>div.added-to-cart-img, div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img {
     width: 29.740vw;
     height: 23.438vw;
     display: none;
@@ -824,20 +793,16 @@ div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img {
     background: #290F41;
 }
 
-div.upload-view>div.uploaded-img>div.added-to-cart-img>div.added-to-cart-text,
-div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>div.added-to-cart-text {
+div.upload-view>div.uploaded-img>div.added-to-cart-img>div.added-to-cart-text, div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>div.added-to-cart-text {
     width: 100%;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     text-align: center;
     color: #FFFFFF;
 }
 
-div.upload-view>div.uploaded-img>div.added-to-cart-img>div.cart-link,
-div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>div.cart-link {
+div.upload-view>div.uploaded-img>div.added-to-cart-img>div.cart-link, div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>div.cart-link {
     width: 100%;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     text-align: center;
@@ -847,8 +812,7 @@ div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>div.cart-l
     cursor: pointer;
 }
 
-div.upload-view>div.uploaded-img>div.added-to-cart-img>#customise-another,
-div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>#generate-another {
+div.upload-view>div.uploaded-img>div.added-to-cart-img>#customise-another, div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>#generate-another {
     width: 18.750vw;
     height: 4.688vw;
     margin: 0px auto;
@@ -856,7 +820,6 @@ div.img-brief-result>div.img-brief>div.img-info>div.added-to-cart-img>#generate-
     background: #FFFFFF;
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     text-align: center;
@@ -882,7 +845,6 @@ div.upload-image>div.get-started {
 
 div.upload-image>div.get-started>div.get-started-text {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -892,7 +854,6 @@ div.upload-image>div.get-started>div.get-started-text {
 div.upload-image>div.get-started>div.upload-image-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     color: #FFFFFF;
@@ -913,7 +874,6 @@ div.upload-image>div.get-started>div.drop-files-here {
 div.upload-image>div.get-started>div.drop-files-here>div.drop-files-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     text-align: center;
@@ -923,7 +883,6 @@ div.upload-image>div.get-started>div.drop-files-here>div.drop-files-text {
 div.upload-image>div.get-started>div.drop-files-here>div.or-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.667vw;
     text-align: center;
@@ -940,7 +899,6 @@ div.upload-image>div.get-started>div.drop-files-here>div.select-files {
     background: #290F41;
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     color: #FFFFFF;
@@ -981,7 +939,6 @@ div.upload-view>div.navbar-play {
 
 div.upload-view>div.navbar-play>div.play-text {
     width: 100%;
-    font-weight: normal;
     font-size: 3.333vw;
     line-height: 3.281vw;
     text-align: center;
@@ -1031,7 +988,7 @@ div.upload-view>div.uploaded-img>div.uploaded-img-view>div.uploaded-img-btns>but
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details {
     width: 27.917vw;
-    height: 28.646vw;
+    display: grid;
     background: #290F41;
     margin-bottom: auto;
     padding: 2.240vw 3.333vw 1.719vw 3.333vw;
@@ -1041,7 +998,6 @@ div.upload-view>div.uploaded-img>div.uploaded-img-details>div.ethnicity-text, di
     width: 100%;
     font-family: 'Anonymous Pro';
     font-style: normal;
-    font-weight: normal;
     font-size: 1.458vw;
     line-height: 1.458vw;
     color: #FFFFFF;
@@ -1093,15 +1049,15 @@ div.upload-view>div.uploaded-img>div.uploaded-img-details>input.range:active::-w
 }
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details>div.go-btn {
+    display: flex;
     width: 100%;
-    text-align: center;
+    justify-content: center;
     margin-top: 1.979vw;
 }
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details>div.go-btn>input[type="button"] {
     width: 4.427vw;
     height: 4.427vw;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     color: #000000;
@@ -1109,7 +1065,7 @@ div.upload-view>div.uploaded-img>div.uploaded-img-details>div.go-btn>input[type=
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
     border-radius: 50%;
-    padding-top: 0.313vw;
+    padding: 0px !important;
 }
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details>div.go-btn>input[type="button"]:focus {
@@ -1137,7 +1093,6 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>di
 div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>div.res>div.res-text {
     width: 100%;
     font-family: 'Anonymous Pro';
-    font-weight: normal;
     font-size: 1.458vw;
     line-height: 1.458vw;
     text-align: center;
@@ -1160,7 +1115,6 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>di
 
 div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>div.res>button.price-btn>div.price {
     width: 100%;
-    font-weight: normal;
     font-size: 2.500vw;
     line-height: 2.448vw;
     text-align: center;
@@ -1169,7 +1123,6 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>di
 
 div.upload-view>div.uploaded-img>div.customised-img-price>div.img-resolutions>div.res>button.price-btn>div.tokens {
     width: 100%;
-    font-weight: normal;
     font-size: 0.938vw;
     line-height: 0.938vw;
     text-align: center;
@@ -1186,7 +1139,6 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.go-btn {
 div.upload-view>div.uploaded-img>div.customised-img-price>div.go-btn>input[type="button"] {
     width: 4.427vw;
     height: 4.427vw;
-    font-weight: normal;
     font-size: 1.667vw;
     line-height: 1.615vw;
     color: #000000;
@@ -1194,7 +1146,7 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.go-btn>input[type=
     border: 0.521vw solid #D0FD5D;
     box-sizing: border-box;
     border-radius: 50%;
-    padding-top: 0.313vw;
+    padding: 0px !important;
 }
 
 div.upload-view>div.uploaded-img>div.customised-img-price>div.go-btn>input[type="button"]:focus {
@@ -1205,4 +1157,246 @@ div.upload-view>div.uploaded-img>div.customised-img-price>div.go-btn>input[type=
     display: none;
     padding-top: 4.844vw;
 }
+
+/* 
+******************************************************************
+*******************        Cart Dollars         ******************
+******************************************************************
+*/
+
+div.cart {
+    width: 100%;
+}
+
+div.cart>div.navbar-cart {
+    position: fixed;
+    top: 7.083vw;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding: 2.292vw 11.146vw;
+    padding-bottom: 0vw;
+}
+
+div.cart>div.navbar-cart>div.cart-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.938vw;
+    background: #000000;
+}
+
+div.cart>div.cart-dollars {
+    margin: 18.802vw 11.094vw 4.635vw 11.146vw;
+    padding: 0px !important;
+}
+
+div.cart>div.cart-dollars>div.cart-items {
+    width: 42.188vw;
+    display: grid;
+    margin-bottom: auto;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item {
+    display: flex;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item:not(:first-child) {
+    margin-top: 3.333vw;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-img {
+    width: 15.625vw;
+    height: 10.417vw;
+    margin-right: 3.333vw;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-img>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail {
+    text-align: left;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail>div.img-type-text {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail>div.price-text {
+    width: 100%;
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+    margin-top: 1.927vw;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail>div.credit-text {
+    width: 100%;
+    font-size: 1.250vw;
+    line-height: 1.198vw;
+    color: #000000;
+    margin-top: 0.938vw;
+}
+
+div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail>div.remove-text {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    text-decoration-line: underline;
+    color: #969696;
+    cursor: pointer;
+    margin-top: 1.198vw;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout {
+    width: 25vw;
+    display: grid;
+    margin-bottom: auto;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total {
+    width: 100%;
+    display: grid;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 2.25vw 2.4vw;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.item-price {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.item-price>div {
+    width: 100%;
+    font-family: 'Aldrich';
+    font-size: 1.5vw;
+    line-height: 1.45vw;
+    color: #000000;
+    margin-top: 0.5vw;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.item-price:not(:first-child) {
+    margin-top: 1.510vw;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.navbar {
+    margin-top: 3.177vw;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 1.146vw !important;
+    border-top: 0.156vw solid #E11488;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.navbar>div.total-text {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.navbar>div.total-price {
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.use-credits {
+    width: 100%;
+    font-size: 1.250vw;
+    line-height: 1.198vw;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E11488;
+    cursor: pointer;
+    margin-top: 0.313vw;
+}
+
+div.cart>div.cart-dollars>div.cart-checkout>button {
+    background: #290F41;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    font-size: 1.667vw;
+    line-height: 1.615vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1.042vw 4.896vw;
+    margin: 1.615vw auto;
+    margin-bottom: 0px !important;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options {
+    width: 25vw;
+    display: none;
+    margin-bottom: auto;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.option {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 1.615vw 2.240vw 1.250vw 1.667vw;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.option>div.navbar {
+    width: 100%;
+    padding: 0px !important;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.option>div.navbar>div.credits {
+    width: 7vw;
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.option>div.navbar>div.price {
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #000000;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.option:not(:first-child) {
+    margin-top: 2.500vw;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.go-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.500vw;
+}
+
+div.cart>div.cart-dollars>div.cart-credit-options>div.go-btn>input[type="button"] {
+    width: 4.427vw;
+    height: 4.427vw;
+    font-size: 1.667vw;
+    line-height: 1.615vw;
+    color: #ffffff;
+    background: #290F41;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 0px !important;
+}
+
+
+
+
+
 

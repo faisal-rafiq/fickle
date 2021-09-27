@@ -7,8 +7,10 @@ $(document).ready(function () {
     $('.img-brief-result').hide();
     $('.upload-image').hide();
     $('.upload-view').hide();
+    $('.cart').hide();
 
     $('.logo-img').click(function () {
+        $('.cart').hide();
         $('.upload-view').hide();
         $('.upload-image').hide();
         $('.img-brief-result').hide();
@@ -17,7 +19,18 @@ $(document).ready(function () {
         $('.landing-page').show();
     });
 
+    $('.cart-link').click(function () {
+        $('.upload-view').hide();
+        $('.upload-image').hide();
+        $('.img-brief-result').hide();
+        $('.brief-results').hide();
+        $('.generate').hide();
+        $('.landing-page').hide();
+        $('.cart').show();
+    });
+
     $('.generate-link').click(function () {
+        $('.cart').hide();
         $('.upload-view').hide();
         $('.upload-image').hide();
         $('.landing-page').hide();
@@ -27,6 +40,7 @@ $(document).ready(function () {
     });
 
     $('.custom-link').click(function () {
+        $('.cart').hide();
         $('.upload-view').hide();
         $('.img-brief-result').hide();
         $('.landing-page').hide();
@@ -36,9 +50,6 @@ $(document).ready(function () {
     });
 
     $('#brief-results-btn').click(function () {
-        $('.upload-image').hide();
-        $('.img-brief-result').hide();
-        $('.landing-page').hide();
         $('.generate').hide();
         $('.brief-results').show();
     });
@@ -74,6 +85,23 @@ $(document).ready(function () {
         $('div.img-brief-result>div.img-brief>div.img-info>div.loaded-img>img').attr('src', $(this).attr('src'));
         $('.brief-results').hide();
         $('.img-brief-result').show();
+    });
+
+    $('div.cart>div.cart-dollars>div.cart-checkout>div.cart-total>div.use-credits').click(function () {
+        $('div.cart>div.cart-dollars>div.cart-checkout').hide();
+        $('div.cart>div.cart-dollars>div.cart-credit-options').css('display', 'grid');
+        var credits;
+        $('div.cart>div.cart-dollars>div.cart-items>div.cart-item>div.item-detail>div.credit-text').each(function () {
+            $(this).parent().children('.price-text').hide();
+            credits = $(this).text();
+            credits = credits.replace("( ", "");
+            credits = credits.replace(" )", "");
+            $(this).text(credits);
+            $(this).css('margin-top', '1.927vw');
+            $(this).css('margin-bottom', '3.333vw');
+            $(this).css('font-size', '1.875vw');
+            $(this).css('line-height', '1.823vw');
+        });
     });
 
 });
