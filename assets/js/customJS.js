@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').hide();
+    $('.landing-page').show();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
@@ -11,7 +11,7 @@ $(document).ready(function () {
     $('.checkout').hide();
     $('.image-purchased').hide();
     $('.token-purchased').hide();
-    $('.pricing').show();
+    $('.pricing').hide();
 
     $('.logo-img').click(function () {
         $('.pricing').hide();
