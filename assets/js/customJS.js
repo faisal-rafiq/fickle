@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').show();
+    $('.landing-page').hide();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
@@ -12,8 +12,10 @@ $(document).ready(function () {
     $('.image-purchased').hide();
     $('.token-purchased').hide();
     $('.pricing').hide();
+    $('.user').hide();
 
     $('.logo-img').click(function () {
+        $('.user').hide();
         $('.pricing').hide();
         $('.landing-page').show();
         $('.generate').hide();
@@ -28,6 +30,7 @@ $(document).ready(function () {
     });
 
     $('.generate-link').click(function () {
+        $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
         $('.token-purchased').hide();
@@ -41,21 +44,8 @@ $(document).ready(function () {
         $('.generate').show();
     });
 
-    $('.pricing-link').click(function () {
-        $('.image-purchased').hide();
-        $('.token-purchased').hide();
-        $('.checkout').hide();
-        $('.cart').hide();
-        $('.upload-view').hide();
-        $('.upload-image').hide();
-        $('.landing-page').hide();
-        $('.img-brief-result').hide();
-        $('.brief-results').hide();
-        $('.generate').hide();
-        $('.pricing').show();
-    });
-
     $('.custom-link').click(function () {
+        $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
         $('.token-purchased').hide();
@@ -69,7 +59,38 @@ $(document).ready(function () {
         $('.upload-image').show();
     });
 
+    $('.pricing-link').click(function () {
+        $('.user').hide();
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
+        $('.checkout').hide();
+        $('.cart').hide();
+        $('.upload-view').hide();
+        $('.upload-image').hide();
+        $('.landing-page').hide();
+        $('.img-brief-result').hide();
+        $('.brief-results').hide();
+        $('.generate').hide();
+        $('.pricing').show();
+    });
+
+    $('.user-link').click(function () {
+        $('.image-purchased').hide();
+        $('.token-purchased').hide();
+        $('.checkout').hide();
+        $('.cart').hide();
+        $('.upload-view').hide();
+        $('.upload-image').hide();
+        $('.landing-page').hide();
+        $('.img-brief-result').hide();
+        $('.brief-results').hide();
+        $('.generate').hide();
+        $('.pricing').hide();
+        $('.user').show();
+    });
+
     $('.cart-link').click(function () {
+        $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
         $('.token-purchased').hide();
@@ -87,15 +108,15 @@ $(document).ready(function () {
 
     $('.checkout-btn').click(function () {
         $('.cart').hide();
-        if($(this).parent().hasClass("cart-checkout")) {
+        if ($(this).parent().hasClass("cart-checkout")) {
             $('div.checkout>div.dollar-100>div.total-price').text('$100.0 USD');
             $('#image-purchase-btn').show();
             $('#token-purchase-btn').hide();
-        } else if($(this).parent().hasClass("dollars-to-credits")) {
+        } else if ($(this).parent().hasClass("dollars-to-credits")) {
             $('div.checkout>div.dollar-100>div.total-price').text('$550.0 USD');
             $('#image-purchase-btn').show();
             $('#token-purchase-btn').hide();
-        } else if($(this).parent().hasClass("checkout-here")) {
+        } else if ($(this).parent().hasClass("checkout-here")) {
             $('div.checkout>div.dollar-100>div.total-price').text('$550.0 USD');
             $('#image-purchase-btn').hide();
             $('#token-purchase-btn').show();
@@ -180,6 +201,18 @@ $(document).ready(function () {
         $('.cart').show();
     });
 
+    $('div.account>div.left-sidebar>div.item>a').click(function (e) {
+        e.preventDefault();
+        var target = $($(this).attr('href'));
+        if (target.length) {
+            var windowSize = $(window).width();
+            var scrollAt = windowSize * ( 20.156/100 );
+            var scrollTo = target.offset().top - scrollAt;
+            console.log(scrollTo);
+            $('body, html').animate({ scrollTop: scrollTo + 'px' }, 400);
+        }
+    });
+
 });
 
 $(document).ready(function () {
@@ -230,7 +263,7 @@ function readURL(input) {
     }
 }
 
-$fileInput.change(function (){
+$fileInput.change(function () {
     readURL(this);
 });
 

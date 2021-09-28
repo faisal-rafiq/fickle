@@ -2241,7 +2241,7 @@ div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>di
 div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.navbar>div.credit-price>div.price {
     font-size: 2.500vw;
     line-height: 2.448vw;
-    color: #FFFFFF;    
+    color: #FFFFFF;
     margin-top: 1.8vw;
 }
 
@@ -2277,7 +2277,310 @@ div.pricing>div.pricing-items>div.credit-pricing>div.credit-detail>div.go-btn>in
     outline: none;
 }
 
+/* 
+******************************************************************
+**********************         User        ***********************
+******************************************************************
+*/
 
+div.user {
+    width: 100%;
+    padding: 10.365vw 10.104vw 6.302vw 10.104vw;
+}
+
+div.user>div.login {
+    width: 100%;
+    display: grid;
+    background: #290F41;
+    padding: 3.958vw 29.740vw 5.156vw 29.740vw;
+}
+
+div.user>div.login>div.login-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+div.user>div.login>div.login-credential {
+    margin-top: 3.333vw;
+}
+
+div.user>div.login>div.login-credential>div.label-text {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #FFFFFF;
+}
+
+div.user>div.login>div.login-credential>input {
+    width: 100%;
+    height: 3.490vw;
+    font-family: 'Anonymous Pro';
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 0.6vw;
+}
+
+div.user>div.login>div.login-credential>input:focus {
+    outline: none;
+}
+
+div.user>div.login>div.login-credential>*:not(:first-child) {
+    margin-top: 0.833vw;
+}
+
+div.user>div.login>div.go-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 3.333vw;
+}
+
+div.user>div.login>div.go-btn>input[type="button"] {
+    width: 4.427vw;
+    height: 4.427vw;
+    font-size: 1.667vw;
+    line-height: 1.615vw;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 0px !important;
+    margin: auto 3.333vw;
+}
+
+div.user>div.login>div.go-btn>input[type="button"]:focus {
+    outline: none;
+}
+
+/* 
+******************************************************************
+**********************        Account       **********************
+******************************************************************
+*/
+
+div.account {
+    width: 100%;
+}
+
+div.account>div.navbar-account {
+    position: fixed;
+    top: 7.083vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #ffffff;
+    padding: 2.292vw 6.719vw 5.625vw 10vw;
+}
+
+div.account>div.navbar-account>div.account-text {
+    width: 100%;
+    font-size: 3.333vw;
+    line-height: 3.281vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.938vw;
+    background: #000000;
+}
+
+div.account>div.left-sidebar {
+    width: 20.469vw;
+    position: fixed;
+    top: 20.156vw;
+    left: 10vw;
+    z-index: 1;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 0.990vw 0.521vw 1.427vw 1.146vw;
+}
+
+div.account>div.left-sidebar>div.item {
+    width: 100%;
+    cursor: pointer;
+}
+
+div.account>div.left-sidebar>div.item:not(:first-child) {
+    margin-top: 1.667vw !important;
+}
+
+div.account>div.left-sidebar>div.item>a {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.account>div.left-sidebar>div.item>a:-webkit-any-link {
+    text-decoration: none;
+}
+
+div.account>div.account-details {
+    width: 100%;
+    padding: 20.156vw 6.719vw 3.333vw 36.302vw;
+}
+
+#personal-details, #credits, #purchase-history, #billing-information, #payment-information {
+    width: 100%;
+}
+
+#personal-details>div.personal-details-text,
+#credits>div.credits-text,
+#purchase-history>div.purchase-history-text,
+#billing-information>div.billing-information-text,
+#payment-information>div.payment-information-text {
+    width: 100%;
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #000000;
+    padding: 0px 0px 1.094vw 2.500vw;
+}
+
+#personal-details>div.personal-info {
+    width: 100%;
+    background: #290F41;
+    padding: 1.667vw 11.042vw 2.917vw 2.500vw;
+}
+
+#personal-details>div.personal-info>div.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+#personal-details>div.personal-info>div.navbar:not(:first-child) {
+    margin-top: 3.854vw;
+}
+
+#credits, #purchase-history, #billing-information, #payment-information {
+    margin-top: 5vw;
+}
+
+#credits>div.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+#credits>div.navbar>div.navbar {
+    width: 33.021vw;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 1.250vw 1.250vw 0.885vw 1.979vw;
+}
+
+#credits>div.navbar>div.navbar>div.remaining-text {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+#credits>div.navbar>div.navbar>div.credits-left {
+    font-size: 2.500vw;
+    line-height: 2.448vw;
+    color: #000000;
+}
+
+#credits>div.navbar>button {
+    width: fit-content;
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    text-align: center;
+    color: #FFFFFF;
+    background: #290F41;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    padding: 1.042vw 2.448vw;
+}
+
+#credits>div.navbar>button:focus {
+    outline: none;
+}
+
+#purchase-history>div.items {
+    width: 100%;
+    display: grid;
+    margin-top: 0.729vw;
+}
+
+#purchase-history>div.items>div.item {
+    width: 100%;
+    display: flex;
+}
+
+#purchase-history>div.items>div.item:not(:first-child) {
+    margin-top: 2.813vw;
+}
+
+#purchase-history>div.items>div.item>div.item-img {
+    width: 15.625vw;
+    margin-right: 4.844vw;
+}
+
+#purchase-history>div.items>div.item>div.item-img>img {
+    width: 100%;
+    height: 10.417vw;
+    object-fit: cover;
+}
+
+#purchase-history>div.items>div.item>div.dates {
+    width: 20.052vw;
+}
+
+#purchase-history>div.items>div.item>div.dates>div.date-text,
+#purchase-history>div.items>div.item>div.dates>div.date {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+#purchase-history>div.items>div.item>div.dates>div.date {
+    font-weight: 600;
+}
+
+#purchase-history>div.items>div.item>div.dates>div.date-text:not(:first-child) {
+    margin-top: 3vw;
+}
+
+#purchase-history>div.items>div.item>div.download-link {
+    font-family: 'Anonymous Pro';
+    font-weight: bold;
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    text-decoration-line: underline;
+    color: #E11488;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+#billing-information>div.billing-info {
+    width: 100%;
+    background: #290F41;
+    margin-top: 0.365vw;
+    padding: 1.667vw 10.990vw 2.500vw 2.500vw;
+}
+
+#billing-information>div.billing-info>*:not(:first-child) {
+    margin-top: 2.500vw;
+}
+
+#payment-information>div.payment-info {
+    width: 100%;
+    background: #290F41;
+    margin-top: 0.365vw;
+    padding: 1.667vw 22.396vw 2.500vw 2.500vw;
+}
+
+#payment-information>div.payment-info>*:not(:first-child) {
+    margin-top: 2.500vw;
+}
 
 
 

@@ -645,6 +645,169 @@
       </div>
     </div>
 
+    <!-- User -->
+    <div class="user">
+      <div class="login">
+        <div class="login-text">log in</div>
+        <div class="login-credential">
+            <div class="label-text">email</div>
+            <input type="email" required />
+            <div class="label-text">password</div>
+            <input type="password" required />
+        </div>
+        <div class="go-btn">
+          <input type="button" value="GO" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Account -->
+    <div class="account">
+      <div class="navbar-account">
+        <div class="account-text">
+          account
+        </div>
+      </div>
+      <div class="left-sidebar">
+        <div class="item"><a target="account-details" href="#personal-details">personal details</a></div>
+        <div class="item"><a target="account-details" href="#credits">credits</a></div>
+        <div class="item"><a target="account-details" href="#purchase-history">purchase history</a></div>
+        <div class="item"><a target="account-details" href="#billing-information">billing information</a></div>
+        <div class="item"><a target="account-details" href="#payment-information">payment information</a></div>
+      </div>
+      <div class="account-details">
+        <div id="personal-details">
+          <div class="personal-details-text">personal details</div>
+          <div class="personal-info">
+            <div class="navbar">
+              <div class="input-with-label">
+                <span>email</span>
+                <input type="email" />
+              </div>
+              <div class="input-with-label">
+                <span>password</span>
+                <input type="password" />
+              </div>
+            </div>
+            <div class="navbar">
+              <div class="input-with-label">
+                <span>first name</span>
+                <input type="text" />
+              </div>
+              <div class="input-with-label">
+                <span>last name</span>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="credits">
+          <div class="credits-text">credits</div>
+          <div class="navbar">
+            <div class="navbar">
+              <div class="remaining-text">Remaining</div>
+              <div class="credits-left">7 / 50</div>
+            </div>
+            <button>add credits</button>
+          </div>
+        </div>
+        <div id="purchase-history">
+          <div class="purchase-history-text">purchase history</div>
+          <div class="items">
+            <div class="item">
+              <div class="item-img">
+                <img src="./assets/img/Brief Results/img_00023_B 1.png" />
+              </div>
+              <div class="dates">
+                <div class="date-text">Purchase date:</div>
+                <div class="date">26 December 2020</div>
+                <div class="date-text">Market freeze expiry:</div>
+                <div class="date">25 December 2021</div>
+              </div>
+              <div class="download-link">download</div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img src="./assets/img/Brief Results/img_00023_B 1.png" />
+              </div>
+              <div class="dates">
+                <div class="date-text">Purchase date:</div>
+                <div class="date">26 December 2020</div>
+                <div class="date-text"></div>
+                <div class="date"></div>
+              </div>
+              <div class="download-link">download</div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img src="./assets/img/Brief Results/img_00023_B 1.png" />
+              </div>
+              <div class="dates">
+                <div class="date-text">Purchase date:</div>
+                <div class="date">26 December 2020</div>
+                <div class="date-text"></div>
+                <div class="date"></div>
+              </div>
+              <div class="download-link">download</div>
+            </div>
+          </div>
+        </div>
+        <div id="billing-information">
+          <div class="billing-information-text">billing information</div>
+          <div class="billing-info">
+            <div class="w-100">
+              <div class="input-with-label">
+                <span>email</span>
+                <input type="email" />
+              </div>
+            </div>
+            <div class="navbar p-0">
+              <div class="input-with-label">
+                <span>first name</span>
+                <input type="text" />
+              </div>
+              <div class="input-with-label">
+                <span>last name</span>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="textarea-with-label">
+              <span>billing address</span>
+              <textarea></textarea>
+            </div>
+            <div class="input-with-label">
+              <span>postal code</span>
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+        <div id="payment-information">
+          <div class="payment-information-text">payment information</div>
+          <div class="payment-info">
+            <div class="w-100">
+              <div class="input-with-label">
+                <span>name on card</span>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="input-with-label w-100">
+              <span>card number</span>
+              <input type="text" />
+            </div>
+            <div class="navbar p-0">
+              <div class="input-with-label" style="width: 17.969vw;">
+                <span>expiry date</span>
+                <input type="date" />
+              </div>
+              <div class="input-with-label" style="width: 11.667vw;">
+                <span>cvv</span>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </nav>
 
@@ -700,6 +863,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   <script src="./assets/js/customJS.js"></script>
 
