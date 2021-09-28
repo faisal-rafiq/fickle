@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.landing-page').hide();
+    $('.landing-page').show();
     $('.generate').hide();
     $('.brief-results').hide();
     $('.img-brief-result').hide();
@@ -13,8 +13,10 @@ $(document).ready(function () {
     $('.token-purchased').hide();
     $('.pricing').hide();
     $('.user').hide();
+    $('.account').hide();
 
     $('.logo-img').click(function () {
+        $('.account').hide();
         $('.user').hide();
         $('.pricing').hide();
         $('.landing-page').show();
@@ -30,6 +32,7 @@ $(document).ready(function () {
     });
 
     $('.generate-link').click(function () {
+        $('.account').hide();
         $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
@@ -45,6 +48,7 @@ $(document).ready(function () {
     });
 
     $('.custom-link').click(function () {
+        $('.account').hide();
         $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
@@ -60,6 +64,7 @@ $(document).ready(function () {
     });
 
     $('.pricing-link').click(function () {
+        $('.account').hide();
         $('.user').hide();
         $('.image-purchased').hide();
         $('.token-purchased').hide();
@@ -75,6 +80,7 @@ $(document).ready(function () {
     });
 
     $('.user-link').click(function () {
+        $('.account').hide();
         $('.image-purchased').hide();
         $('.token-purchased').hide();
         $('.checkout').hide();
@@ -90,6 +96,7 @@ $(document).ready(function () {
     });
 
     $('.cart-link').click(function () {
+        $('.account').hide();
         $('.user').hide();
         $('.pricing').hide();
         $('.image-purchased').hide();
@@ -211,6 +218,11 @@ $(document).ready(function () {
             console.log(scrollTo);
             $('body, html').animate({ scrollTop: scrollTo + 'px' }, 400);
         }
+    });
+
+    $('#login-btn').click(function(){
+        $('.user').hide();
+        $('.account').show();
     });
 
 });
