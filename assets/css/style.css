@@ -1495,6 +1495,130 @@ div.cart>div.cart-dollars>div.dollars-to-credits>button:focus {
     outline: none;
 }
 
+div.cart>div.cart-credit {
+    width: 100%;
+    display: none;
+    padding: 18.125vw 11.146vw 16.875vw 11.146vw;
+}
+
+div.cart>div.cart-credit>div.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex {
+    margin-bottom: auto;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.credits-given {
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1vw 1.667vw 0vw 1.667vw;
+    margin-right: 2.500vw;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.credits-given>div.credit-num {
+    font-size: 3.3330vw;
+    line-height: 3.681vw;
+    color: #000000;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.credits-given>div.credit-text {
+    font-size: 1.287vw;
+    line-height: 2.5vw;
+    color: #000000;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.navbar {
+    padding: 0.7vw 0px;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.navbar>div.price {
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+div.cart>div.cart-credit>div.navbar>div.d-flex>div.navbar>div.remove {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    text-decoration-line: underline;
+    color: #969696;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here {
+    width: 25vw;
+    display: grid;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.521vw solid #E11488;
+    box-sizing: border-box;
+    padding: 2.917vw 2.344vw 2.083vw 2.444vw;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill>div.credits {
+    width: 100%;
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill>div.price {
+    width: 100%;
+    font-size: 1.47vw;
+    line-height: 1.667vw;
+    color: #000000;
+    margin-top: 0.4vw;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill>div.navbar {
+    width: 100%;
+    padding: 0px;
+    padding-top: 1.146vw;
+    margin-top: 1.77vw;
+    border-top: 0.188vw solid #E11488;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill>div.navbar>div.total-text {
+    font-family: 'Anonymous Pro';
+    font-size: 1.667vw;
+    line-height: 1.667vw;
+    color: #000000;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>div.credit-bill>div.navbar>div.total-price {
+    font-size: 1.875vw;
+    line-height: 1.823vw;
+    color: #000000;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>button {
+    background: #290F41;
+    border: 0.521vw solid #D0FD5D;
+    box-sizing: border-box;
+    font-size: 1.667vw;
+    line-height: 1.615vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1.042vw 4.896vw;
+    margin: 2.500vw auto 0vw auto;
+}
+
+div.cart>div.cart-credit>div.navbar>div.checkout-here>button:focus {
+    outline: none;
+}
+
 /* 
 ******************************************************************
 *********************        Checkout         ********************
