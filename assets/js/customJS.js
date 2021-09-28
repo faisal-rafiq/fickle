@@ -215,7 +215,6 @@ $(document).ready(function () {
             var windowSize = $(window).width();
             var scrollAt = windowSize * ( 20.156/100 );
             var scrollTo = target.offset().top - scrollAt;
-            console.log(scrollTo);
             $('body, html').animate({ scrollTop: scrollTo + 'px' }, 400);
         }
     });
