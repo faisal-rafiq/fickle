@@ -131,6 +131,20 @@ $(document).ready(function () {
         $('.checkout').show();
     });
 
+    $('#original-btn').click(function(){
+        $('#modified-btn').css('border', '0.521vw solid #FFFFFF');
+        $(this).css('border', '0.521vw solid #D0FD5D');
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').hide();
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.original-img').show();
+    });
+
+    $('#modified-btn').click(function(){
+        $('#original-btn').css('border', '0.521vw solid #FFFFFF');
+        $(this).css('border', '0.521vw solid #D0FD5D');
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.original-img').hide();
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').show();
+    });
+
     $('#image-purchase-btn').click(function () {
         $('.checkout').hide();
         $('.image-purchased').show();
@@ -268,7 +282,8 @@ function readURL(input) {
         reader.onload = function (e) {
             $('.upload-image').hide();
             $('.upload-view').show();
-            $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img').attr('src', e.target.result);
+            $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').hide();
+            $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.original-img').attr('src', e.target.result);
         }
         reader.readAsDataURL(input.files[0]);
     }
@@ -276,6 +291,26 @@ function readURL(input) {
 
 $fileInput.change(function () {
     readURL(this);
+});
+
+
+$(document).ready(function () {
+    $('div.upload-view>div.uploaded-img>div.uploaded-img-details>input.range').click(function(){
+        $('#original-btn').css('border', '0.521vw solid #FFFFFF');
+        $('#modified-btn').css('border', '0.521vw solid #D0FD5D');
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.original-img').hide();
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').show();
+        var value = $(this).val();
+        var index = $(this).index();
+        var type = $(this).parent().children().eq(index-1).text();
+        $('div.upload-view>div.uploaded-img>div.uploaded-img-details>input.range').val(0);
+        $(this).val(value);
+        if(value<10) {
+            $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').attr('src', './assets/img/slider\ images/' + type + '/0' + value + '.png');
+        } else {
+            $('div.upload-view>div.uploaded-img>div.uploaded-img-view>img.modified-img').attr('src', './assets/img/slider\ images/' + type + '/' + value + '.png');
+        }
+    });
 });
 
 

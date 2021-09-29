@@ -981,9 +981,12 @@ div.upload-view>div.uploaded-img>div.uploaded-img-view>div.uploaded-img-btns>but
     color: #FFFFFF;
 }
 
+div.upload-view>div.uploaded-img>div.uploaded-img-view>div.uploaded-img-btns>#original-btn {
+    border: 0.521vw solid #D0FD5D;
+}
+
 div.upload-view>div.uploaded-img>div.uploaded-img-view>div.uploaded-img-btns>button:focus {
     outline: none;
-    border: 0.521vw solid #D0FD5D;
 }
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details {
@@ -1016,6 +1019,7 @@ div.upload-view>div.uploaded-img>div.uploaded-img-details>input.range {
     padding: 0;
     background: none;
     margin-top: 1.2vw;
+    cursor: pointer;
 }
 
 div.upload-view>div.uploaded-img>div.uploaded-img-details>input.range::-webkit-slider-runnable-track {
